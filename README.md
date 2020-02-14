@@ -4,7 +4,7 @@
 ### All the data used for analysis was taken from the timeline before any Results announced or Exit poll published so that it doesn't affected by any media biasis .<br><br>
 
 ## DATA
-Data has been collected with the help of twitter api tweepy using only tags <b> AAP ,BJP , CONGRESS </b> to avoid biases and compleixty.<br><br>
+Data has been collected with the help of twitter api tweepy using only tags <b> AAP ,BJP , CONGRESS </b> to avoid baises and complexity.<br><br>
 
 ## RESULTS<br><br>
 
