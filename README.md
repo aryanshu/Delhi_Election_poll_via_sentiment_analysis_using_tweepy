@@ -1,4 +1,4 @@
-# Delhi Election EXit Poll 2020 using sentiment analysis of twitter comments<br><br>
+# Delhi Election Web Poll 2020 using sentiment analysis of twitter comments<br><br>
 
 
 ### All the data used for analysis was taken from the timeline before any Results announced or Exit poll published so that it doesn't affected by any media biasis .<br><br>
