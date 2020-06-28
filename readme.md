@@ -35,8 +35,12 @@ For doing Sentiment analysis i used textblob library which provides function Tex
 
 ## RESULTS
 Texblob have hard time counter sarcasm and other contextual related infromation.<br>
-So when we compare main two competing parties voting percentage was pretty close to actual results.<br>
+So when we compare main two competing parties voting percentage was pretty close to actual results.<br><br><br>
+<p align='center'>
 <img src="Dataset/readme_img/1.png"> 
+</p>
 <br><br><br>
-But when we move to all parties the result shattered a little bit , it was predicting pretty high for clearly losing party due to the fact that there isn't a lot of talk about that party and due to which a lot people don't have any negative sentiments against it because there is no discussion going around it , if there was those generally have sarcastic comments on it which model textblob doesn't able to recognize. 
+But when we move to all parties the result shattered a little bit , it was predicting pretty high for clearly losing party due to the fact that there isn't a lot of talk about that party and due to which a lot people don't have any negative sentiments against it because there is no discussion going around it , if there was those generally have sarcastic comments on it which model textblob doesn't able to recognize.<br><br><br>
+<p align='center'>
 <img src="Dataset/readme_img/2.png">
+</p>
