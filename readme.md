@@ -3,7 +3,7 @@
 * `Devloped a Machine learning model which able to predict the voting percentage of parties via Sentiment Analysis of tweets.`
 * `Data has been collected with the help of twitter api ” tweepy ” using only tags AAP ,BJP , CONGRESS to avoid biases and complexity and Data is collected only region which is within 20km area circle from Delhi Central.`
 * `Result able to show the right order of voting percentage but they are little bit off from the actual
-voting percentage(Actual=54,37,8 Predicted=44,30,24) . I also have done the interpretation why it might be happend.`
+voting percentage(Actual=54,37,8 Predicted=44,30,24) . I also have done the interpretation why it might be happend in result section.`
 
 <p align="center">
 	<img src="Dataset/readme_img/election.jpg" >
@@ -13,11 +13,12 @@ voting percentage(Actual=54,37,8 Predicted=44,30,24) . I also have done the inte
 ## Dataset:
 
 #### Data Collection
+<img src="Dataset/readme_img/extracting_tweets.png" width=400 align="right"><br> 
 Data has been collected with the help of twitter api tweepy , Just like all api's you need to register for twitter developer account.So during data collection i used coordinate based functionlatiy(geocode) to access the location of tweets.I have used <b> gecode=(28.644800,77.216721) </b> as center with radius of 20km around it.Apart from that AAP,BJP,CONGRESS keyword used during query for not getting too complex by using a variety of keywords.
 
 
 
-<img src="Dataset/readme_img/tweepy.jpg" width=400 align="right"><br> 
+
 
 #### Data Cleaning and Pre-processing
 Tweepy return results with a lot of atrributes such timestamp,tweets,contributors,hashtags etc... So First we fetch the tweet alone but even in tweet there is a lot of uncessary things like @ ,urls etc.. we remove them by simple textual processsing.
@@ -25,6 +26,7 @@ Tweepy return results with a lot of atrributes such timestamp,tweets,contributor
 ### All the data used for analysis was taken from the timeline before any Results announced or Exit poll published so that it doesn't affected by any media biasis or actula result .<br><br>
 
 ## Sentiment Analysis
+<img src="Dataset/readme_img/sentiment_analysis.png" width=400 align="right"><br> 
 For doing Sentiment analysis i used textblob library which provides function TextBolb to get the polarity of sentence or tweet on the basis of that you can decide whether it is positive,neutral or negative sentiment oriented tweet.After that i simply calculated the positive to negative sentiment ratio , then we caculated the voting percentage by their relative ratio.
 
 ## RESULTS<br><br>
