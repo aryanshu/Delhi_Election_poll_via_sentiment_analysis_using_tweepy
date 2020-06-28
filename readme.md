@@ -16,9 +16,7 @@ voting percentage(Actual=54,37,8 Predicted=44,30,24) . I also have done the inte
  
 Data has been collected with the help of twitter api tweepy , Just like all api's you need to register for twitter developer account.So during data collection i used coordinate based functionlatiy(geocode) to access the location of tweets.I have used <b> gecode=(28.644800,77.216721) </b> as center with radius of 20km around it.Apart from that AAP,BJP,CONGRESS keyword used during query for not getting too complex by using a variety of keywords.
 
-<p align='center'>
-<img src="Dataset/readme_img/extracting_tweets.png" width=400>
-</p>
+
 
 #### Data Cleaning and Pre-processing
 Tweepy return results with a lot of atrributes such timestamp,tweets,contributors,hashtags etc... So First we fetch the tweet alone but even in tweet there is a lot of uncessary things like @ ,urls etc.. we remove them by simple textual processsing.
@@ -39,7 +37,7 @@ So when we compare main two competing parties voting percentage was pretty close
 <p align='center'>
 <img src="Dataset/readme_img/1.png"> 
 </p>
-<br><br><br>
+<br>
 But when we move to all parties the result shattered a little bit , it was predicting pretty high for clearly losing party due to the fact that there isn't a lot of talk about that party and due to which a lot people don't have any negative sentiments against it because there is no discussion going around it , if there was those generally have sarcastic comments on it which model textblob doesn't able to recognize.<br><br><br>
 <p align='center'>
 <img src="Dataset/readme_img/2.png">
