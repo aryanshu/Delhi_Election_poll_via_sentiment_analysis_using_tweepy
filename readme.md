@@ -5,10 +5,7 @@
 * `Result able to show the right order of voting percentage but they are little bit off from the actual
 voting percentage(Actual=54,37,8 Predicted=44,30,24) . I also have done the interpretation why it might be happend in result section.`
 
-<p align="center">
-	<img src="Dataset/readme_img/election.jpg" >
 
-</p>
 
 ## Dataset:
 
